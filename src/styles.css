@@ -1,4 +1,46 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+::selection {
+  background: tomato;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+html {
+  background: black;
+}
+body {
+  background: #ff7f50a9;
+}
+.card {
+  filter: drop-shadow(6px 6px 3px #00000066);
+}
+.card * {
+  color: white;
+}
+.card-body {
+  max-height: 140pt;
+}
+img {
+  background: none !important;
+  object-fit: cover;
+  aspect-ratio: 5/3;
+}
+.col3 {
+  columns: 2;
+}
+span {
+  text-transform: capitalize;
+  font-size: 0.7em;
+}
+.title {
+  pointer-events: none;
+  font-size: 4em;
+  color: orange;
+  text-shadow: 5px 5px 8px black;
+  font-weight: bolder;
+}
+.page-link {
+  filter: invert(0.9);
 }
